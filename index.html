@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css"/>
     <link rel="stylesheet" href="CSS/style.css" />
@@ -17,12 +20,12 @@
 <div id="gameBox">
     <div class="playerBox" id="playerOne">
         <input type="text" id="playerOneName" placeholder="Player One">
-        <p>This is where the points display is</p>
-        <p>This is where the points display is</p>
-        <p>This is where the fish list is</p>
-        <p>This is where the fish list is</p>
-        <p>This is how many casts remain</p>
-        <p>This is how many casts remain</p>
+        <p>Points Gained: </p>
+        <p id="pointTotal"></p>
+        <p>Fish Caught: </p>
+        <ol id="fishBox"></ol>
+        <p>Remaining Casts: </p>
+        <p id="castsLeft"></p>
     </div>
     <div id="pond">
       <div class="square" id="poolOne">pool 1</div>
@@ -37,12 +40,12 @@
     </div>
     <div class="playerBox" id="playerTwo">
         <input type="text" id="playerTwoName" placeholder="Player Two">
-        <p>This is where the points display is</p>
-        <p>This is where the points display is</p>
-        <p>This is where the fish list is</p>
-        <p>This is where the fish list is</p>
-        <p>This is how many casts remain</p>
-        <p>This is how many casts remain</p>
+        <p>Points Gained: </p>
+        <p id="pointTotal"></p>
+        <p>Fish Caught: </p>
+        <ol id="fishBox"></ol>
+        <p>Remaining Casts: </p>
+        <p id="castsLeft"></p>
     </div>
   </div>
   <div id="footer">

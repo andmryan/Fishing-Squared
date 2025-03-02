@@ -32,4 +32,3 @@
 // 6. End the game when both players are out of casts.
 
 /* End of Pseudocode */
-
