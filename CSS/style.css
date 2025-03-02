@@ -6,21 +6,29 @@ Background image from one (or two) of the images in the IMG folder.
 */
 body {
     background-color: white;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.outerWrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #gameBox {
     /* This is the entire container that the game is in */
     display: grid;
-    grid-template-areas:
-    "playerOne pond playerTwo"
-    "playerOne pond playerTwo"
-    "playerOne pond playerTwo";
-    
+    grid-template-columns: 1fr 2fr 1fr;
 }
   
 #header {
     /* This is the space for the title */
     background-color: pink;
+    margin-top: 0;
+    overflow: hidden;
 }
   
 #playerOne { 
@@ -30,68 +38,35 @@ body {
 
 .playerBox{
     /* Styling for the player boxes */
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
 }
 
 #pond {  
     /* This is the container for the pond's grid */
     display: grid;
+    gap: 1px;
     background-color: lightgoldenrodyellow;
-    grid-template-areas:
-    "poolOne poolThree poolSix"
-    "poolTwo poolFive poolEight"
-    "poolFour poolSeven poolNine";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .square {
     /* Set the size of the squares inside the pond */
     border: 3px solid black;
     text-align: center;
-}
-  
-#poolOne { 
-    /* This is a pool */
-    grid-area: poolOne;
-}
-  
-#poolTwo { 
-    /* This is a pool */
-    grid-area: poolTwo;
-}
-
-#poolThree { 
-    /* This is a pool */
-    grid-area: poolThree;
-}
-  
-#poolFour { 
-    /* This is a pool */
-    grid-area: poolFour;
-}
-  
-#poolFive { 
-    /* This is a pool */
-    grid-area: poolFive;
-}
-  
-#poolSix { 
-    /* This is a pool */
-    grid-area: poolSix;
-}
-  
-#poolSeven { 
-    /* This is a pool */
-    grid-area: poolSeven;
-}
-  
-#poolEight { 
-    /* This is a pool */
-    grid-area: poolEight;
-}
-  
-#poolNine { 
-    /* This is a pool */
-    grid-area: poolNine;
 }
   
 #playerTwo { 
@@ -102,4 +77,5 @@ body {
 #footer { 
     /* This is the space for ???? */
     background-color: lightblue;
+    overflow: hidden;
 }
