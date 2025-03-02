@@ -4,3 +4,102 @@ Fishing grid in the middle
 Gradiant in the cubes but I can do that individually if I need to
 Background image from one (or two) of the images in the IMG folder.
 */
+body {
+    background-color: white;
+}
+
+#gameBox {
+    /* This is the entire container that the game is in */
+    display: grid;
+    grid-template-areas:
+    "playerOne pond playerTwo"
+    "playerOne pond playerTwo"
+    "playerOne pond playerTwo";
+    
+}
+  
+#header {
+    /* This is the space for the title */
+    background-color: pink;
+}
+  
+#playerOne { 
+    /* This is the content box for Player one */
+    background-color: lightsalmon;
+}
+
+.playerBox{
+    /* Styling for the player boxes */
+    margin: auto;
+}
+
+#pond {  
+    /* This is the container for the pond's grid */
+    display: grid;
+    background-color: lightgoldenrodyellow;
+    grid-template-areas:
+    "poolOne poolThree poolSix"
+    "poolTwo poolFive poolEight"
+    "poolFour poolSeven poolNine";
+}
+
+.square {
+    /* Set the size of the squares inside the pond */
+    border: 3px solid black;
+    text-align: center;
+}
+  
+#poolOne { 
+    /* This is a pool */
+    grid-area: poolOne;
+}
+  
+#poolTwo { 
+    /* This is a pool */
+    grid-area: poolTwo;
+}
+
+#poolThree { 
+    /* This is a pool */
+    grid-area: poolThree;
+}
+  
+#poolFour { 
+    /* This is a pool */
+    grid-area: poolFour;
+}
+  
+#poolFive { 
+    /* This is a pool */
+    grid-area: poolFive;
+}
+  
+#poolSix { 
+    /* This is a pool */
+    grid-area: poolSix;
+}
+  
+#poolSeven { 
+    /* This is a pool */
+    grid-area: poolSeven;
+}
+  
+#poolEight { 
+    /* This is a pool */
+    grid-area: poolEight;
+}
+  
+#poolNine { 
+    /* This is a pool */
+    grid-area: poolNine;
+}
+  
+#playerTwo { 
+    /* This is the content box for Player two */
+    background-color: palegreen;
+}
+  
+#footer { 
+    /* This is the space for ???? */
+    background-color: lightblue;
+}

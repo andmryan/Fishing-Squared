@@ -30,3 +30,6 @@
     // Repeat steps from player two but for player two.
 // 5. Switch to player one after player two makes a move.
 // 6. End the game when both players are out of casts.
+
+/* End of Pseudocode */
+
