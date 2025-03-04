@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css"/>
     <link rel="stylesheet" href="CSS/style.css" />
+    <script defer src="JS/app.js"></script>
     <title>Fishing Squared</title>
 </head>
 <body>
@@ -15,41 +16,45 @@
 <div class="outerWrapper">
 <div id="header">
     <h1 id="title">Fishing Squared</h1>
-    <p id="instructions">Game Instructions: The instructions for the game will go here when I write them.</p>
+    <p class="instructions">Game Instructions:</p>
+    <p class="instructions">Type your name into the player name boxes. Decide who the first player is. Each play fishes by clicking on a square, and the winner is whoever has the most points when both players are out of casts.</p>
+    <p class="winner"></p>
 </div>
 <div id="gameBox">
     <div class="playerBox" id="playerOne">
         <input type="text" id="playerOneName" placeholder="Player One">
         <p>Points Gained: </p>
-        <p id="pointTotal"></p>
+        <p id="pointTotalOne"></p>
         <p>Fish Caught: </p>
-        <ol id="fishBox"></ol>
+        <ol class="fishNames" id="fishBoxOne"></ol>
         <p>Remaining Casts: </p>
-        <p id="castsLeft"></p>
+        <p id="castsLeftOne"></p>
     </div>
     <div id="pond">
-      <div class="square" id="poolOne">pool 1</div>
-      <div class="square" id="poolTwo">pool 2</div>
-      <div class="square" id="poolThree">pool 3</div>
-      <div class="square" id="poolFour">pool 4</div>
-      <div class="square" id="poolFive">pool 5</div>
-      <div class="square" id="poolSix">pool 6</div>
-      <div class="square" id="poolSeven">pool 7</div>
-      <div class="square" id="poolEight">pool 8</div>
-      <div class="square" id="poolNine">pool 9</div>
+      <div class="square" id="poolOne">Tiny Fish</div>
+      <div class="square" id="poolTwo">Small Fish</div>
+      <div class="square" id="poolThree">Small Fish</div>
+      <div class="square" id="poolFour">Medium Fish</div>
+      <div class="square" id="poolFive">Medium Fish</div>
+      <div class="square" id="poolSix">Medium Fish</div>
+      <div class="square" id="poolSeven">Large Fish</div>
+      <div class="square" id="poolEight">Extra Large Fish</div>
+      <div class="square" id="poolNine"> Huge Fish</div>
     </div>
     <div class="playerBox" id="playerTwo">
         <input type="text" id="playerTwoName" placeholder="Player Two">
         <p>Points Gained: </p>
-        <p id="pointTotal"></p>
+        <p id="pointTotalTwo"></p>
         <p>Fish Caught: </p>
-        <ol id="fishBox"></ol>
+        <ol class="fishNames" id="fishBoxTwo"></ol>
         <p>Remaining Casts: </p>
-        <p id="castsLeft"></p>
+        <p id="castsLeftTwo"></p>
     </div>
   </div>
   <div id="footer">
-  </p id="footerContent">A game by Ryan Andrade.</p>
+  </p id="footerContent">A game by Ryan Andrade.
+  <button type="button" id="resetButton">Restart</button>
+</p>
 </div>
 </div>
 </body>
