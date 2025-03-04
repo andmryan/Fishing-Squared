@@ -3,7 +3,7 @@
 # Fishing Squared
 
 ### <ins>Getting Started</ins>
-[Fishing Squared]()
+[Fishing Squared](https://andmryan.github.io/Fishing-Squared/)
 </br>
 A simple two player fishing game. Take turns casting your line 10 times and try to get the most points!
 

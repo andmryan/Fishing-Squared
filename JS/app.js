@@ -294,11 +294,11 @@ levelSix.addEventListener("click", function(){
 });
 
 levelSeven.addEventListener("click", function(){
-    castLine("largeFish", 200)
+    castLine("largeFish", 150)
 });
 
 levelEight.addEventListener("click", function(){
-    castLine("extraLargeFish", 200)
+    castLine("extraLargeFish", 300)
 });
 
 levelNine.addEventListener("click", function(){
