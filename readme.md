@@ -13,7 +13,7 @@ Technologies Used:
 - Javascript
 - CSS
 
-### <ins>Next Steps</ins>
+### <ins>Next Steps/Future Goals</ins>
 Stretch Goals:
 - Add Scoreboard
 - Make it look better.
@@ -21,3 +21,5 @@ Stretch Goals:
 - Add a chance to fish from different arrays per square depending on total points, rather than creating a separate array for middling points.
 - Adjust the gamebox grid so that it is always a square shape.
 - Add the chances to get a 'lucky' cast or a 'super' catch, which will return a cast and give double fish respectively.
+- Add a difficulty mode switch which will hide the points needed for each pool.
+- Make it so the player names matter and the winning player's name will be displayed in the win message.
