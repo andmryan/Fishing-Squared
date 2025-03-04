@@ -1,4 +1,4 @@
-![Title Card]([https://imgur.com/a/QsfTiBm](https://i.imgur.com/Mtbejzj.png))
+![Title Card](https://i.imgur.com/Mtbejzj.png)
 
 # Fishing Squared
 
