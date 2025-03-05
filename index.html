@@ -21,60 +21,60 @@
       <p>Decide who each player is and type their name into the respective player name lines.</p>
       <p>Each player takes turn fishing by clicking on a square, with the winner being whoever has the most points when both players are out of casts.</p>
     </div>
-    <p class="winner"></p>
 </div>
+<div class="winnerBox"><p class="winner"></p></div>
 <div id="gameBox">
     <div class="playerBox" id="playerOne">
-        <input type="text" id="playerOneName" placeholder="Player One">
-        <p>Points Gained: </p>
-        <p id="pointTotalOne"></p>
-        <p>Fish Caught: </p>
-        <ol class="fishNames" id="fishBoxOne"></ol>
-        <p>Remaining Casts: </p>
-        <p id="castsLeftOne"></p>
+        <input type="text" class="nameTextbox" id="playerOneName" placeholder="Player One">
+        <p>Points Gained: <span id="pointTotalOne"></span></p>
+        <p class="fishBoxTitle">Fish Caught: </p>
+        <div class="fishNames">
+          <ol id="fishBoxOne"></ol>
+        </div>
+        <p>Remaining Casts: <span id="castsLeftOne"></span></p>
     </div>
     <div id="pond">
       <div class="square" id="poolOne">
-        <p>0 Points Recommended</p>
+        <p>0 Points</p>
     </div>
       <div class="square" id="poolTwo">
-        <p>30 Points Recommended</p>
+        <p>30 Points</p>
     </div>
       <div class="square" id="poolThree">
-        <p>60 Points Recommended</p>
+        <p>60 Points</p>
       </div>
       <div class="square" id="poolFour">
-        <p>120 Points Recommended</p>
+        <p>120 Points</p>
       </div>
       <div class="square" id="poolFive">
-        <p>300 Points Recommended</p>
+        <p>300 Points</p>
       </div>
       <div class="square" id="poolSix">
-        <p>500 Points Recommended</p>
+        <p>500 Points</p>
       </div>
       <div class="square" id="poolSeven">
-        <p>800 Points Recommended</p>
+        <p>800 Points</p>
       </div>
       <div class="square" id="poolEight">
-        <p>1000 Points Recommended</p>
+        <p>1000 Points</p>
     </div>
       <div class="square" id="poolNine">
-        <p>1500 Points Recommended</p>
+        <p>1500 Points</p>
       </div>
     </div>
     <div class="playerBox" id="playerTwo">
-        <input type="text" id="playerTwoName" placeholder="Player Two">
-        <p>Points Gained: </p>
-        <p id="pointTotalTwo"></p>
-        <p>Fish Caught: </p>
-        <ol class="fishNames" id="fishBoxTwo"></ol>
-        <p>Remaining Casts: </p>
-        <p id="castsLeftTwo"></p>
+        <input type="text" class="nameTextbox" id="playerTwoName" placeholder="Player Two">
+        <p>Points Gained: <p>Points Gained: <span id="pointTotalTwo"></span></p></p>
+        <p class="fishBoxTitle">Fish Caught: </p>
+        <div class="fishNames">
+        <ol id="fishBoxTwo"></ol>
+      </div>
+        <p>Remaining Casts: <span id="castsLeftTwo"></span></p>
     </div>
   </div>
   <div id="footer">
   <p>
-  <button type="button" id="resetButton">Restart</button>
+  <button type="button" id="resetButton">Restart Game</button>
   </p>
 </div>
 </div>
